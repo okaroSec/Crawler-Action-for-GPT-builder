@@ -28,4 +28,4 @@ def crawl_site(start_url):
         except requests.RequestException:
             continue
 
-crawl_site('https://arxiv.org/html/2402.06664v1')
+crawl_site('test-site')
